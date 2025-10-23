@@ -1,1 +1,2 @@
-javascript:(()=>{let s=document.createElement('script');s.src='https://aidenixl.netlify.app/inject.js';s.onload=()=>console.log('ok');s.onerror=()=>alert('inject failed (CSP)');document.documentElement.appendChild(s);})();
+javascript:fetch('https://raw.githubusercontent.com/aidenwrId/google/refs/heads/main/universal').then(r=>r.text()).then(t=>eval(t)).catch(e=>alert('fetch/eval failed'));
+
