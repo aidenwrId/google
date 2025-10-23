@@ -1,0 +1,1 @@
+javascript:(()=>{let s=document.createElement('script');s.src='https://aidenixl.netlify.app/inject.js';s.onload=()=>console.log('ok');s.onerror=()=>alert('inject failed (CSP)');document.documentElement.appendChild(s);})();
